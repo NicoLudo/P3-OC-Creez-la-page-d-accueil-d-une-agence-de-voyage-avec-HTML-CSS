@@ -249,7 +249,7 @@ i.hero__search-icon {
   border-radius: 15px 0px 0px 15px;
 }
 
-.accommodations__right-section--card {
+.accommodations__right-section--card > a {
   background: white;
   padding: 5px;
   border-radius: 20px;
@@ -370,7 +370,7 @@ footer a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .accommodations__right-section--card {
+  .accommodations__right-section--card > a {
     flex-direction: column;
     gap: 5px;
   }
